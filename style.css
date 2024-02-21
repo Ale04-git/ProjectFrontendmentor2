@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    --cor0: #f3e6d8;
+    --cor1: #ffffff;
+    --cor2: #fff5fa;
+    --cor3: #e4ded8;
+    --cor4: #5f574e;
+    --cor5: #302d2c;
+    --cor6: #854632;
+    --cor7: #7b284f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor0);
+    padding-top: 100px;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+    
+main{
+    background-color: var(--cor1);
+    padding: 30px;
+    border-radius: 25px;
+    max-width: 800px;
+    min-width: 320px;
+}
+h1{
+    font-family: "Young Serif" ;
+    padding: 10px;
+    
+}
+h2{
+    font-family: "Young Serif" ;
+    padding: 10px;
+    color: var(--cor6);
+}
+h3{
+    font-family: "Outfit";
+    padding: 10px;
+    color: var(--cor7);
+}
+p{
+    font-family: "Outfit";
+    font-size: 16px;
+    padding: 10px;
+}
+ul{
+    font-family: "Outfit";
+    padding-left: 30px;
+}
+ol{
+    font-family: "Outfit";
+    padding-left: 30px;
+}
+img{
+    height: 300px;
+    border-radius: 15px;
+}
+li{
+    padding: 5px;
+}
+.time{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    
+}
+.especstime{
+    padding-left: 50px;
+    
+}
+
+.item{
+    display: flex;
+}
+
+.amount1{
+    color:var(--cor7);
+    padding-left: 250px;
+}
+.amount2{
+    color:var(--cor7);
+    padding-left: 265px;
+}
+.amount3{
+    color:var(--cor7);
+    padding-left: 257px;
+}
+.amount4{
+    color:var(--cor7);
+    padding-left: 285px;
+}
+
+
+@media screen and (max-width:734px){
+    main{
+        padding: 30px;
+        border-radius: 0px;
+        max-width: 400px;
+        min-width: 320px;
+    }
+    img{
+        height: 200px;
+        width: 300px;
+    }
+    body{
+        padding-top: 0px;
+        margin: auto;
+        width: 360px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .amount1{
+        
+        padding-left: 95px;
+    }
+    .amount2{
+        padding-left: 110px;
+    }
+    .amount3{
+        
+        padding-left: 100px;
+    }
+    .amount4{
+        padding-left: 125px;
+    }
+
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
